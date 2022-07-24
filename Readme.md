@@ -1,4 +1,6 @@
 <img src="https://albertjohanson.com/2e21ecc6cf832cfe09a91e448020ec0c.png" width="128"/>
+
+
 # Albert Johanson (Portafolio)
 
 Portafolio de Albert Johanson Construido con HTML5, CSS3 y Javascript.
