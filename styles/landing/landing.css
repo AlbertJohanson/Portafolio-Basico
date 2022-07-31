@@ -18,8 +18,25 @@
     align-items: center;
 }
 
+
+.landing__image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .hero {
     display: flex;
+    padding: 50px 0 0 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -43,6 +60,7 @@
 .landing__container h1 {
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
     color: #fff;
     margin-bottom: 1rem;
 }
@@ -66,13 +84,14 @@
         align-items: center;
     }
     .landing__container h1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     .landing__container h2 {
         font-size: 4rem;
     }
 
     .landing__image{
+        width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -82,5 +101,6 @@
     .landing__image img{
         width: 100%;
         height: 100%;
+      
     }
 }
