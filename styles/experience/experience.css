@@ -58,6 +58,26 @@
     margin-right: 10px;
 }
 
+.buttons_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.buttons_container a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #51567a;
+}
+
 
 /* media query desktop */
 

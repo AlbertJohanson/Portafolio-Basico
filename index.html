@@ -25,16 +25,49 @@
                 <a href="#experience">Experiencia</a>
             </li>
             <li>
+                <a href="#proyecto">Proyecto</a>
+            </li>
+            <li>
                 <a href="#social">Redes</a>
             </li>
             <li>
                 <a href="#contact">Contactame</a>
             </li>
+        </nav>
+
+        <!-- Burger -->
+        <div class="burgerBtn" onclick="openNav()">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </div>
+        
+    </header>
+
+
+    <!-- Sidebar -->
+
+    <div id="mySidenav" class="sidebar__container">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span>X</span></a>
+        <nav class="nav__links__mobile">
             <li>
-                <a href="#Github">Github</a>
+                <a href="#about">Quien soy?</a>
+            </li>
+            <li>
+                <a href="#frameworks">Lenguajes y Frameworks</a>
+            </li>
+            <li>
+                <a href="#experience">Experiencia</a>
+            </li>
+            <li>
+                <a href="#proyecto">Proyecto</a>
+            </li>
+            <li>
+                <a href="#social">Redes</a>
+            </li>
+            <li>
+                <a href="#contact">Contactame</a>
             </li>
         </nav>
-    </header>
+    </div>
 
     <!-- Landing -->
     <section class="landing">
@@ -52,7 +85,7 @@
     </section>
 
     <!-- About -->
-    <section>
+    <section id="about">
         <div class="about__container">
             <div class="about">
                 <div class="about__image">
@@ -75,7 +108,7 @@
     </section>
 
     <!-- Frameworks and Technologies  -->
-    <section>
+    <section id="frameworks">
         <div class="section__header">
             <h2>Lenguajes y Frameworks</h2>
         </div>
@@ -128,7 +161,7 @@
 
     <!-- Experience -->
 
-    <section>
+    <section id="experience">
         <div class="section__header">
             <h2>Experiencia</h2>
         </div>
@@ -164,7 +197,7 @@
     </section>
 
 
-    <section>
+    <section id="proyecto">
         <div class="section__header">
             <h2>Proyectos</h2>
         </div>
@@ -186,6 +219,10 @@
                     <p>
                         Trabajé en una empresa de desarrollo de aplicaciones web, donde trabajé con React, React-native, Angular, NodeJS, MongoDB, MySQL, etc.
                     </p>
+                    <div class="buttons_container">
+                        <a href="https://albertjohanson.github.io/auth/login" target="_blank" class="button">Ver</a>
+                        <a href="https://github.com/AlbertJohanson/JournalApp" target="_blank" class="button">Github</a>
+                    </div>
                 </div>
             </div>
             <div class="card__experience">
@@ -201,6 +238,10 @@
                     <p>
                         Trabajé en una empresa de desarrollo de aplicaciones web, donde trabajé con React, React-native, Angular, NodeJS, MongoDB, MySQL, etc.
                     </p>
+                    <div class="buttons_container">
+                        <a href="https://albertjohanson.github.io/auth/login" target="_blank" class="button">Ver</a>
+                        <a href="https://github.com/AlbertJohanson/JournalApp" target="_blank" class="button">Github</a>
+                    </div>
                 </div>
             </div>
             <div class="card__experience">
@@ -217,6 +258,10 @@
                     <p>
                         Trabajé en una empresa de desarrollo de aplicaciones web, donde trabajé con React, React-native, Angular, NodeJS, MongoDB, MySQL, etc.
                     </p>
+                    <div class="buttons_container">
+                        <a href="https://albertjohanson.github.io/auth/login" target="_blank" class="button">Ver</a>
+                        <a href="https://github.com/AlbertJohanson/JournalApp" target="_blank" class="button">Github</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -224,7 +269,7 @@
 
 
     <!-- Social Media -->
-    <section>
+    <section id="social">
         <div class="social_media_container">
             <div class="social_media_container__text">
                 <h2>Sigueme en mis redes sociales</h2>
@@ -249,10 +294,10 @@
 
     <!-- Email Contact -->
 
-    <section>
+    <section id="contact">
         <div class="email_contact_container">
             <div class="social_media_container__text">
-                <h2>Escribeme a mi correro </h2>
+                <h2>Escribeme a mi correo</h2>
                 <p>
                      Comparte tu idea conmigo, y hagamos algo increible.
                 </p>
@@ -262,6 +307,31 @@
                     <img src="./assets/svg/gmail-icon.svg" alt="gmail-logo"/>
                 </a>
             </div>
+        </div>
+    </section>
 
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_container__text">
+                <p>
+                    &copy; 2022 Albert Johanson
+                </p>
+            </div>
+            <div class="footer_container__icons">
+                <a class="icon_social" href="https://www.linkedin.com/in/albertjohanson/" target="_blank">
+                    <img src="./assets/svg/linkedin-icon-2.svg" alt="linkedin"/>
+                </a>
+                <a class="icon_social" href="https://twitter.com/johanson_aj" target="_blank">
+                    <img src="./assets/svg/twitter-6.svg" alt="linkedin"/>
+                </a>
+                <a class="icon_social" href="https://github.com/AlbertJohanson" target="_blank">
+                    <img src="./assets/svg/github-icon.svg" alt="linkedin"/>
+                </a>
+            </div>
+        </div>
+    </footer>
+<script src="./js/burger/burger.js"></script>
 </body>
 </html>

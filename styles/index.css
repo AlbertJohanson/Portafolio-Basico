@@ -1,9 +1,11 @@
 @import "./nav/nav.css";
 @import "./landing/landing.css";
+@import "./sidenav/sidenav.css";
 @import "./about/about.css";
 @import "./frameworks/frameworks.css";
 @import "./experience/experience.css";
 @import "./socialMedia/social.css";
+@import "./footer/footer.css";
 
 * 
 {
