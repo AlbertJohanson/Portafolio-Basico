@@ -37,3 +37,9 @@ footer{
     text-decoration: none;
     color: #51567a;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer_container{
+        display: block;
+    }    
+}

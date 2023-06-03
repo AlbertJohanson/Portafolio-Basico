@@ -4,37 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albert Johanson</title>
+    <title>Albert Johanson Trujillo Revolorio</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" rel="stylesheet"/>
 </head>
+<style>
+     table {
+      margin: 0 auto;
+      width: 90%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+    th {
+      text-align: center;
+    }
+</style>
 <body>
     
     <!-- Header -->
-    <header class="nav">
-        <div>
-            <img src="https://albertjohanson.com/2e21ecc6cf832cfe09a91e448020ec0c.png" width="38" alt="logo-website-albert"/>
-        </div>
-        <nav class="nav__links">
-            <li>
-                <a href="#about">Quien soy?</a>
-            </li>
-            <li>
-                <a href="#frameworks">Lenguajes y Frameworks</a>
-            </li>
-            <li>
-                <a href="#experience">Experiencia</a>
-            </li>
-            <li>
-                <a href="#proyecto">Proyecto</a>
-            </li>
-            <li>
-                <a href="#social">Redes</a>
-            </li>
-            <li>
-                <a href="#contact">Contactame</a>
-            </li>
-        </nav>
-
         <!-- Burger -->
         <div class="burgerBtn" onclick="openNav()">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
@@ -49,22 +39,28 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span>X</span></a>
         <nav class="nav__links__mobile">
             <li>
-                <a href="#about" onclick="closeNav()">Quien soy?</a>
+                <a href="#mision" onclick="closeNav()">Mision</a>
             </li>
             <li>
-                <a href="#frameworks" onclick="closeNav()">Lenguajes y Frameworks</a>
+                <a href="#vision" onclick="closeNav()">Vision</a>
             </li>
             <li>
-                <a href="#experience" onclick="closeNav()">Experiencia</a>
+                <a href="#principios_valores" onclick="closeNav()">Principios y Valores</a>
             </li>
             <li>
-                <a href="#proyecto" onclick="closeNav()">Proyecto</a>
+                <a href="#prioritarias" onclick="closeNav()">Areas Prioritarias</a>
             </li>
             <li>
-                <a href="#social" onclick="closeNav()">Redes</a>
+                <a href="#objetivos_metas" onclick="closeNav()">Objetivos y Metas</a>
             </li>
             <li>
-                <a href="#contact" onclick="closeNav()">Contactame</a>
+                <a href="#aspectos_considerar" onclick="closeNav()">Aspectos a considerar</a>
+            </li>
+            <li>
+                <a href="#estrategias" onclick="closeNav()">Estrategias</a>
+            </li>
+            <li>
+                <a href="#cronograma" onclick="closeNav()">Cronogramas</a>
             </li>
         </nav>
     </div>
@@ -72,250 +68,548 @@
     <!-- Landing -->
     <section class="landing">
         <div class="landing__container">
+            <div class="landing__container-background"></div>
             <div class="hero">
-                <h1>Albert Johanson</h1>
-                <h2>Frontend Developer</h2>
-                <a href="#about" class="btn">Conocer más</a>
-            </div>
-            <div class="landing__image">
-                <img src="https://firebasestorage.googleapis.com/v0/b/ajweb-ba173.appspot.com/o/assets%2Flanding.png?alt=media&token=3b79f4b2-15dc-4c88-a066-fb4ce7d36d36" alt="landing-image-albert" />
+                <h1>Albert Johanson Trujillo Revolorio</h1>
+                <h2>Proyecto de Vida</h2>
+                <a href="#about" class="btn">Acompañame</a>
             </div>
         </div>
         </div>
     </section>
 
-    <!-- About -->
-    <section id="about">
-        <div class="about__container">
-            <div class="about">
-                <div class="about__image">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/ajweb-ba173.appspot.com/o/assets%2Flanding.png?alt=media&token=3b79f4b2-15dc-4c88-a066-fb4ce7d36d36" alt="about-me-image"/>
-                </div>
-                <div class="about__text">
-                    <h2>Quien soy?</h2>
-                <p>
-                    Soy un desarrollador Frontend con experiencia en desarrollo de aplicaciones web.
-                    Me gusta trabajar con frameworks como React, React-native y Angular. </p>
-                    
-                    <p>Tambien tengo conocimientos en desarrollo de aplicaciones para móviles.</p>
+    <!-- Mision y Vision -->
+    
+    <!-- Generate me  table with the mision and vision and with the style of the page-->
 
-                    <p>y tambien Backend con NodeJS y Bases de datos Relacionales como MySQL y MongoDB.</p>
-
-                   <p> También me gusta trabajar con lenguajes de programación como C++, Python, etc.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Frameworks and Technologies  -->
-    <section id="frameworks">
+    <section id="mision" class="mision_vision_container">
         <div class="section__header">
-            <h2>Lenguajes y Frameworks</h2>
+            <h2>Mision</h2>
+        </div>
+        <div class="about__container">
+            <div class="about__container__text">
+                <p>
+                    Soy una persona que vive con el lema "Nunca parar de aprender"
+                    persevero hasta lograr lo que quiero y dar un paso al frente 
+                    estudio y trabajo y me enfoco en mis objetivos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="mision_vision_container">
+        <div class="section__header">
+            <h2>Vision</h2>
+        </div>
+        <div class="about__container">
+            <div class="about__container__text">
+                <p>
+                    Ser una persona feliz y sin preocupaciones con la responsabilidad de dedicarme a lo que hago 
+                    y a mi familia, desarrollar mis proyectos personales y profesionales.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Principios y Valores  -->
+    <section id="principios_valores">
+        <div class="section__header">
+            <h2>Principios y Valores</h2>
         </div>
         <div class="framwworks__grid">
             <div class="card_framework">
                 <div class="card_framework__image">
-                    <img src="./assets/images/html-logo.png" alt="html-logo"/>
+                    <img src="./assets//images/honesto.png" alt="css-logo"/>
                 </div>
-                <h1 class="card_framework_title">HTML5</h1>
+                <h1 class="card_framework_title">Honestidad</h1>
+                
             </div>
             <div class="card_framework">
                 <div class="card_framework__image">
-                    <img src="./assets//images/css3-logo.png" alt="css-logo"/>
+                    <img src="./assets//images/trabajo-duro.png" alt="css-logo"/>
                 </div>
-                <h1 class="card_framework_title">CSS3</h1>
+                <h1 class="card_framework_title">Trabajo Duro</h1>
+                
             </div>
             <div class="card_framework">
                 <div class="card_framework__image">
-                    <img src="./assets//images/javascript-logo.png" alt="javascript-logo"/>
+                    <img src="./assets//images/humildad.png" alt="javascript-logo"/>
                 </div>
-                <h1 class="card_framework_title">JAVASCRIPT</h1>
+                <h1 class="card_framework_title">Humildad</h1>
+                
             </div>
             <div class="card_framework">
                 <div class="card_framework__image">
-                    <img src="./assets//images/react-logo.png" alt="react-logo"/>
+                    <img src="./assets//images/responsabilidad.png" alt="react-logo"/>
                 </div>
-                <h1 class="card_framework_title">REACT</h1>
+                <h1 class="card_framework_title">Responsabilidad</h1>
+                
             </div>
             <div class="card_framework">
                 <div class="card_framework__image">
-                    <img src="./assets//images/next-js-logo.png" alt="next-logo"/>
+                    <img src="./assets//images/solidaridad.png" alt="next-logo"/>
                 </div>
-                <h1 class="card_framework_title">NEXT.JS</h1>
+                <h1 class="card_framework_title">Solidaridad</h1>
+                
             </div>
             <div class="card_framework">
                 <div class="card_framework__image">
-                    <img src="./assets//images/tailwind-css.png" alt="tailwind-logo"/>
+                    <img src="./assets//images/gestion-del-tiempo.png" alt="tailwind-logo"/>
                 </div>
-                <h1 class="card_framework_title">TAILWIND CSS</h1>
-            </div>
-            <div class="card_framework">
-                <div class="card_framework__image">
-                    <img src="./assets//images/node-js-logo.png" alt="node-logo"/>
-                </div>
-                <h1>NODE.JS</h1>
+                <h1 class="card_framework_title">Paciencia</h1>
+                
             </div>
         </div>
     </section>
 
 
-    <!-- Experience -->
+    <!-- Areas Prioritarias -->
 
-    <section id="experience">
+    <section id="prioritarias">
         <div class="section__header">
-            <h2>Experiencia</h2>
+            <h2>Areas Prioritarias</h2>
         </div>
-        <div class="experience_container">
-            <div class="card__experience">
-                <div class="card__experience__image">
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHebFyguCNpuQ/company-logo_200_200/0/1645205741862?e=1667433600&v=beta&t=NWyf3vbgqtYl-BLDnccpskhaAICOHDd4ouULBkKrqLw" alt="experience-logo"/>
+        <div class="framwworks__grid">
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/optimismo.png" alt="css-logo"/>
                 </div>
-                <div class="card__experience__text">
-                    <h2>Studio 31</h2>
-                    <p>Desarrollador Frontend</p>
-                    <p class="tag">Desde Junio 2021</p> <p class="tag">Hasta Mayo de 2022</p>
-                    <p>
-                        En Studio31 trabaje con distintas tecnologias como frontend desde Shopify Stores y Liquid hasta React y NextJS desarrollando las mejores interfaces para clientes en estados unidos y el mundo.
-                    </p>
-                </div>
+                <h1 class="card_framework_title">Optimismo</h1>
+                
             </div>
-            <div class="card__experience">
-                <div class="card__experience__image">
-                    <img src="https://media-exp1.licdn.com/dms/image/C560BAQHEezAS_2-iwg/company-logo_200_200/0/1639066427986?e=1667433600&v=beta&t=fb9pWIeWMd48_vUzy4NySI_VnF3LrYg8pq01xVi0NIo" alt="experience-logo"/>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/compasion.png" alt="css-logo"/>
                 </div>
-                <div class="card__experience__text">
-                    <h2>DevStack</h2>
-                    <p>Desarrollador Frontend</p>
-                    <p class="tag">Desde Mayo 2021</p> <p class="tag">Hasta Junio de 2021</p>
-                    <p>
-                        En DevStack trabaje con tecnologias como ReactJS, Bootstrap, Firebase, ChartJS creando un dashboard para menejar inventarios y productos 
-                        en una aplicacion web para una compañia Estado Unidense.
-                    </p>
-                </div>
+                <h1 class="card_framework_title">Compasion</h1>
+                
             </div>
-        </div>
-    </section>
-
-
-    <section id="proyecto">
-        <div class="section__header">
-            <h2>Proyectos</h2>
-        </div>
-        <div class="experience_container">
-            <div class="card__experience">
-                <div class="card__experience__image">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/ajweb-ba173.appspot.com/o/assets%2FAlbert_Johanson.png?alt=media&token=04a039a7-f8d6-4a0b-bfc0-2dcb2ad1e9e8" alt="experience-logo"/>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/rezar.png" alt="javascript-logo"/>
                 </div>
-                <div class="card__experience__text">
-                    <h2>AlbertJohanson.com</h2>
-                    <div class="tags">
-                        <p class="tag">React</p>
-                        <p class="tag">Firebase</p>
-                        <p class="tag">SASS</p>
-                        <p class="tag">Html5</p>
-                        <p class="tag">Css3</p>
-                        <p class="tag">JavaScript</p>
-                    </div>
-                    <p>
-                        Trabajé en una empresa de desarrollo de aplicaciones web, donde trabajé con React, React-native, Angular, NodeJS, MongoDB, MySQL, etc.
-                    </p>
-                    <div class="buttons_container">
-                        <a href="https://albertjohanson.github.io/auth/login" target="_blank" class="button">Ver</a>
-                        <a href="https://github.com/AlbertJohanson/JournalApp" target="_blank" class="button">Github</a>
-                    </div>
-                </div>
+                <h1 class="card_framework_title">Confianza en Dios</h1>
+                
             </div>
-            <div class="card__experience">
-                <div class="card__experience__image">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/ajweb-ba173.appspot.com/o/assets%2FNetNet(Iphone).png?alt=media&token=00467954-13bc-4447-9242-3017a1bb9ee6" alt="experience-logo"/>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/enamorado.png" alt="react-logo"/>
                 </div>
-                <div class="card__experience__text">
-                    <h2>Net Net</h2>
-                    <div class="tags">
-                        <p class="tag">React</p>
-                        <p class="tag">Sass</p>
-                    </div>
-                    <p>
-                        Trabajé en una empresa de desarrollo de aplicaciones web, donde trabajé con React, React-native, Angular, NodeJS, MongoDB, MySQL, etc.
-                    </p>
-                    <div class="buttons_container">
-                        <a href="https://albertjohanson.github.io/auth/login" target="_blank" class="button">Ver</a>
-                        <a href="https://github.com/AlbertJohanson/JournalApp" target="_blank" class="button">Github</a>
-                    </div>
-                </div>
+                <h1 class="card_framework_title">Emocional</h1>
+                
             </div>
-            <div class="card__experience">
-                <div class="card__experience__image">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/ajweb-ba173.appspot.com/o/assets%2FJournalApp.png?alt=media&token=ac313d69-8cf1-464b-b9ce-368dbdf2346e" alt="experience-logo"/>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/responsabilidad.png" alt="next-logo"/>
                 </div>
-                <div class="card__experience__text">
-                    <h2>Journal App</h2>
-                    <div class="tags">
-                        <p class="tag">React</p>
-                        <p class="tag">Firebase</p>
-                        <p class="tag">MongoDB</p>
-                    </div>
-                    <p>
-                        Trabajé en una empresa de desarrollo de aplicaciones web, donde trabajé con React, React-native, Angular, NodeJS, MongoDB, MySQL, etc.
-                    </p>
-                    <div class="buttons_container">
-                        <a href="https://albertjohanson.github.io/auth/login" target="_blank" class="button">Ver</a>
-                        <a href="https://github.com/AlbertJohanson/JournalApp" target="_blank" class="button">Github</a>
-                    </div>
+                <h1 class="card_framework_title">Responsabilidad</h1>
+                
+            </div>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/generosidad.png" alt="tailwind-logo"/>
                 </div>
+                <h1 class="card_framework_title">Generosidad</h1>
+                
+            </div>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/familia.png" alt="tailwind-logo"/>
+                </div>
+                <h1 class="card_framework_title">Familia</h1>
+                
+            </div>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/informacion-financiera.png" alt="tailwind-logo"/>
+                </div>
+                <h1 class="card_framework_title">Financiera</h1>
+                
+            </div>
+            <div class="card_framework">
+                <div class="card_framework__image">
+                    <img src="./assets/images/obrero.png" alt="tailwind-logo"/>
+                </div>
+                <h1 class="card_framework_title">Trabajo</h1>
+                 
             </div>
         </div>
     </section>
 
 
-    <!-- Social Media -->
-    <section id="social">
-        <div class="social_media_container">
-            <div class="social_media_container__text">
-                <h2>Sigueme en mis redes sociales</h2>
-                <p>
-                    Si quieres saber más de mi, mejor que te lo cuenten mis amigos.
-                </p>
-            </div>
-            <div class="social_media_container__icons">
-                <a class="icon_social" href="https://www.linkedin.com/in/albertjohanson/" target="_blank">
-                    <img src="./assets/svg/linkedin-icon-2.svg" alt="linkedin"/>
-                </a>
-                <a class="icon_social" href="https://twitter.com/johanson_aj" target="_blank">
-                    <img src="./assets/svg/twitter-6.svg" alt="linkedin"/>
-                </a>
-                <a class="icon_social" href="https://github.com/AlbertJohanson" target="_blank">
-                    <img src="./assets/svg/github-icon.svg" alt="linkedin"/>
-                </a>
-            </div>
-        </div>
+    <!--Metas-->
+
+    <section id="objetivos_metas">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h1 class="metas_title">Metas</h1>
+                </td>
+            </tr>
+              <tr>
+                <td >A Corto Plazo</td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Cambiar a una mejor empresa al finalizar el año</p>
+                        </li>
+                        <li>
+                            <p>Terminar mi 3er semetre de universidad</p>
+                        </li>
+                        <li>
+                            <p>Desarrollar los proyectos que he planeado en los ultimos meses</p>
+                        </li>
+                        <li>
+                            <p>Mejorar mi oficina de trabajo</p>
+                        </li>
+                    </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>A mediano plazo</td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Subir de posicion en mi trabajo y trasceder en la empresa que me encuentre</p>
+                        </li>
+                        <li>
+                            <p>Empezar a generar dinero de mis proyectos y monetizarlos</p>
+                        </li>
+                        <li>
+                            <p>Empezar a invertir mi dinero pensando en el futuro</p>
+                        </li>
+                        <li>
+                            <p>Haber desarrollado una cantidad aceptable de mis proyectos</p>
+                        </li>
+                    </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>A largo plazop</td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Lograr alcanzar la libertad financiera</p>
+                        </li>
+                        <li>
+                            <p>Retirme de trabaja para poder dedicarme a mis proyectos</p>
+                        </li>
+                        <li>
+                            <p>Poder dedicarle tiempo a mi familia y tambien a mis proyectos</p>
+                        </li>
+                    </ul>
+                </td>
+              </tr>
+          </table>
     </section>
 
 
-    <!-- Email Contact -->
+      <!-- Aspectos a considerar -->
+     <section id="aspectos_considerar">
+        <table style="margin-top: 50px;">
+            <tr>
+                <td colspan="2">
+                    <h1 class="metas_title">Aspectos a considerar</h1>
+                </td>
+            </tr>
+          
+            <tr>
+                <th>Puntos Fuertes</th>
+                <th>Puntos Debiles u Obstaculos</th>
+            </tr>
+    
+            <tr>
+                <td>
+                    <ul>
+                        <li>
+                            <p>Responsabilidad</p>
+                        </li>
+                        <li>
+                            <p>Disciplina</p>
+                        </li>
+                        <li>
+                            <p>Consistencia</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Incosistencia</p>
+                        </li>
+                        <li>
+                            <p>Procastinacion</p>
+                        </li>
+                    </ul>
+                </td>
+              </tr>
+           
+          </table>
+     </section>
 
-    <section id="contact">
-        <div class="email_contact_container">
-            <div class="social_media_container__text">
-                <h2>Escribeme a mi correo</h2>
-                <p>
-                     Comparte tu idea conmigo, y hagamos algo increible.
-                </p>
-            </div>
-            <div class="social_media_container__icons">
-                <a class="icon_email" href="mailto:aj.dev.gt@gmail.com" target="_blank">
-                    <img src="./assets/svg/gmail-icon.svg" alt="gmail-logo"/>
-                </a>
-            </div>
-        </div>
-    </section>
+      <!-- Estrategias -->
+
+      <section id="estrategias">
+        <table style="margin-top: 50px;">
+            <tr>
+                <td colspan="6">
+                    <h1 class="metas_title">Estrategias</h1>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <th colspan="2">A Corto Plazo</th>
+                <th colspan="2">A Mediano Plazo</th>
+                <th colspan="2">A Largo Plazo</th>
+            </tr>
+              <tr>
+                <td >Para alcanzar mis metas</td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Trabajar en distintas empresas</p>
+                        </li>
+                        <li>
+                            <p>Organizar para cumplir mis proyectos</p>
+                        </li>
+                        <li>
+                            <p>Estudiar mucho</p>
+                        </li>
+                        <li>
+                            <p>Mas Accion menos palabra</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Seguir poniendo interes en la universidad</p>
+                        </li>
+                        <li>
+                            <p>Hacer que mis proyectos sean monetizables</p>
+                        </li>
+                        <li>
+                            <p>Mejorar mis habilidades</p>
+                        </li>
+                        <li>
+                            <p>Ser mejor en lo que hago</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Empezar a generar ganancias</p>
+                        </li>
+                        <li>
+                            <p>Lograr mi libertad financiera</p>
+                        </li>
+                        <li>
+                            <p>Retirarme de mi trabajo</p>
+                        </li>
+                        <li>
+                            <p>Dedicarme completamente a mis proyectos</p>
+                        </li>
+                    </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Para vencer los Obstaculos</td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Ser mas productivo</p>
+                        </li>
+                        <li>
+                            <p>No procastinar demasiado</p>
+                        </li>
+                        <li>
+                            <p>Aprovechar mas mi tiempo</p>
+                        </li>
+                        <li>
+                            <p>Mejorar mi aprendizaje</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Perseverar</p>
+                        </li>
+                        <li>
+                            <p>Mejorar en mis trabajos u habilidades</p>
+                        </li>
+                        <li>
+                            <p>Mejorar como hacerlo mejor como persona</p>
+                        </li>
+                        <li>
+                            <p>Estudiar mas</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Investigar mas hacerca de como generar ganancias</p>
+                        </li>
+                        <li>
+                            <p>Organizar mi retiro de mi trabajo</p>
+                        </li>
+                        <li>
+                            <p>Asesorarme de la mejor manera</p>
+                        </li>
+                        <li>
+                            <p>Siempre relajarme</p>
+                        </li>
+                    </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Para vencer los problemas</td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Evaluar la situacion</p>
+                        </li>
+                        <li>
+                            <p>Tomarse el tiempo para relajarse</p>
+                        </li>
+                        <li>
+                            <p>Respirar profundamente</p>
+                        </li>
+                        <li>
+                            <p>Hablar con quien mas confio</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Pedir ayuda si la necesito</p>
+                        </li>
+                        <li>
+                            <p>Ser paciente</p>
+                        </li>
+                        <li>
+                            <p>No rendirme al fracasar</p>
+                        </li>
+                        <li>
+                            <p>Si me siento ancioso descansar</p>
+                        </li>
+                    </ul>
+                </td>
+                <td colspan="2">
+                    <ul>
+                        <li>
+                            <p>Relajarme si algo pasa</p>
+                        </li>
+                        <li>
+                            <p>Buscar ayuda en mi familia</p>
+                        </li>
+                        <li>
+                            <p>No sentir miedo al futuro</p>
+                        </li>
+                      
+                    </ul>
+                </td>
+              </tr>
+          </table>
+      </section>
+
+      <!-- Cronograma -->
+
+      <section id="cronograma">
+        <table>
+            <tr>
+                <td colspan="6">
+                    <h1 class="metas_title">Cronograma</h1>
+                </td>
+            </tr>
+            <tr>
+                <th>No.</th>
+                <th>Actividades</th>
+                <th>A corto plazo</th>
+                <th>A mediano plazo</th>
+                <th>A largo plazo</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    Cambiar de empresa
+                </td>
+                <td>
+                    Nov 2023
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    Monetizar mis proyectos
+                </td>
+                <td></td>
+                <td>May 2024</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Crear Contenido para internet
+                </td>
+                <td>
+                    Jun 2024
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    Graduarme de la carrera
+                </td>
+                <td></td>
+                <td></td>
+                <td>Jun 2027</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    Libertad Financiera
+                </td>
+                <td></td>
+                <td>Oct 2024</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>
+                    Vivir de mis proyectos
+                </td>
+                <td></td>
+                <td></td>
+                <td>Abr 2025</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>
+                    Retirarme de mi trabajo
+                </td>
+                <td></td>
+                <td></td>
+                <td>Oct 2028</td>
+            </tr>
+        </table>
+      </section>
+  
 
     <!-- Footer -->
     <footer>
         <div class="footer_container">
             <div class="footer_container__text">
                 <p>
-                    &copy; 2022 Albert Johanson
+                    &copy; 2023 Albert Johanson
                 </p>
             </div>
             <div class="footer_container__icons">
